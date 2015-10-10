@@ -1,0 +1,27 @@
+#pragma once
+#include "Global.h"
+#include "State.h"
+
+//DEFINE_STATE(XXState)和END_DEFINE_STATE定义XXState，之间定义个性化参数
+
+DEFINE_STATE(StartState)
+END_DEFINE_STATE
+
+DEFINE_STATE(InitState)
+END_DEFINE_STATE
+
+DEFINE_STATE(WaitActState)
+END_DEFINE_STATE
+
+DEFINE_STATE(ProcessState)
+int re;
+END_DEFINE_STATE
+
+DEFINE_STATE(WinState)
+END_DEFINE_STATE
+
+DEFINE_STATE(LoseState)
+END_DEFINE_STATE
+
+DEFINE_STATE(DrawState)
+END_DEFINE_STATE
